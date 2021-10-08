@@ -1,0 +1,795 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Admin端</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/admin_/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-3.2.1.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script src="resources/scripts/axure/jquery.nicescroll.min.js"></script>
+    <script src="data/document.js"></script>
+    <script src="files/admin_/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1805" class="ax_default _标题_3">
+        <div id="u1805_div" class=""></div>
+        <div id="u1805_text" class="text ">
+          <p><span>公司管理 - Admin端1.可以创建公司，也可以记录用户创建公司；2.仅能为公司指派Owner，任一账号可以成为多个公司的Owner</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1806" class="ax_default flow_shape1">
+        <div id="u1806_div" class=""></div>
+        <div id="u1806_text" class="text ">
+          <p><span>创建公司</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u1807" class="ax_default flow_shape1">
+        <img id="u1807_img" class="img " src="images/登录/u101.svg"/>
+        <div id="u1807_text" class="text ">
+          <p><span>有可用账号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1808" class="ax_default flow_shape1">
+        <div id="u1808_div" class=""></div>
+        <div id="u1808_text" class="text ">
+          <p><span>选择账号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1809" class="ax_default flow_shape1">
+        <div id="u1809_div" class=""></div>
+        <div id="u1809_text" class="text ">
+          <p><span>创建账号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1810" class="ax_default flow_shape1">
+        <div id="u1810_div" class=""></div>
+        <div id="u1810_text" class="text ">
+          <p><span>账号创建成功</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1811" class="ax_default flow_shape1">
+        <div id="u1811_div" class=""></div>
+        <div id="u1811_text" class="text ">
+          <p><span>结束</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1812" class="ax_default flow_shape1">
+        <div id="u1812_div" class=""></div>
+        <div id="u1812_text" class="text ">
+          <p><span>输入公司信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1813" class="ax_default flow_shape1">
+        <img id="u1813_img" class="img " src="images/admin_/u1813.svg"/>
+        <div id="u1813_text" class="text ">
+          <p><span>提交创建公司订单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1814" class="ax_default _连接符">
+        <img id="u1814_seg0" class="img " src="images/admin_/u1814_seg0.svg" alt="u1814_seg0"/>
+        <img id="u1814_seg1" class="img " src="images/admin_/u1814_seg1.svg" alt="u1814_seg1"/>
+        <div id="u1814_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1815" class="ax_default _连接符">
+        <img id="u1815_seg0" class="img " src="images/admin_/u1815_seg0.svg" alt="u1815_seg0"/>
+        <img id="u1815_seg1" class="img " src="images/admin_/u1815_seg1.svg" alt="u1815_seg1"/>
+        <div id="u1815_text" class="text ">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1816" class="ax_default _连接符">
+        <img id="u1816_seg0" class="img " src="images/admin_/u1816_seg0.svg" alt="u1816_seg0"/>
+        <img id="u1816_seg1" class="img " src="images/admin_/u1816_seg1.svg" alt="u1816_seg1"/>
+        <img id="u1816_seg2" class="img " src="images/admin_/u1816_seg2.svg" alt="u1816_seg2"/>
+        <div id="u1816_text" class="text ">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1817" class="ax_default _连接符">
+        <img id="u1817_seg0" class="img " src="images/admin_/u1817_seg0.svg" alt="u1817_seg0"/>
+        <img id="u1817_seg1" class="img " src="images/admin_/u1817_seg1.svg" alt="u1817_seg1"/>
+        <div id="u1817_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1818" class="ax_default _连接符">
+        <img id="u1818_seg0" class="img " src="images/admin_/u1818_seg0.svg" alt="u1818_seg0"/>
+        <img id="u1818_seg1" class="img " src="images/admin_/u1818_seg1.svg" alt="u1818_seg1"/>
+        <div id="u1818_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1819" class="ax_default _连接符">
+        <img id="u1819_seg0" class="img " src="images/admin_/u1819_seg0.svg" alt="u1819_seg0"/>
+        <img id="u1819_seg1" class="img " src="images/admin_/u1819_seg1.svg" alt="u1819_seg1"/>
+        <div id="u1819_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1820" class="ax_default _连接符">
+        <img id="u1820_seg0" class="img " src="images/admin_/u1820_seg0.svg" alt="u1820_seg0"/>
+        <img id="u1820_seg1" class="img " src="images/admin_/u1820_seg1.svg" alt="u1820_seg1"/>
+        <div id="u1820_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1821" class="ax_default _连接符">
+        <img id="u1821_seg0" class="img " src="images/admin_/u1821_seg0.svg" alt="u1821_seg0"/>
+        <img id="u1821_seg1" class="img " src="images/admin_/u1821_seg1.svg" alt="u1821_seg1"/>
+        <div id="u1821_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1822" class="ax_default flow_shape1">
+        <img id="u1822_img" class="img " src="images/admin_/u1822.svg"/>
+        <div id="u1822_text" class="text ">
+          <p><span>账号可以登录Console，并可以看到未激活的公司，无法查看其他模块</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1823" class="ax_default flow_shape1">
+        <img id="u1823_img" class="img " src="images/admin_/u1822.svg"/>
+        <div id="u1823_text" class="text ">
+          <p><span>账号可以登录Console，仅有注册公司功能，无法查看其他模块</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1824" class="ax_default flow_shape1">
+        <div id="u1824_div" class=""></div>
+        <div id="u1824_text" class="text ">
+          <p><span>创建子公司</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u1825" class="ax_default flow_shape1">
+        <img id="u1825_img" class="img " src="images/登录/u101.svg"/>
+        <div id="u1825_text" class="text ">
+          <p><span>有可用经销商</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1826" class="ax_default flow_shape1">
+        <div id="u1826_div" class=""></div>
+        <div id="u1826_text" class="text ">
+          <p><span>选择经销商</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1827" class="ax_default flow_shape1">
+        <div id="u1827_div" class=""></div>
+        <div id="u1827_text" class="text ">
+          <p><span>输入公司信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1828" class="ax_default flow_shape1">
+        <div id="u1828_div" class=""></div>
+        <div id="u1828_text" class="text ">
+          <p><span>创建成功</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1829" class="ax_default flow_shape1">
+        <div id="u1829_div" class=""></div>
+        <div id="u1829_text" class="text ">
+          <p><span>结束</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1830" class="ax_default _连接符">
+        <img id="u1830_seg0" class="img " src="images/admin_/u1830_seg0.svg" alt="u1830_seg0"/>
+        <img id="u1830_seg1" class="img " src="images/admin_/u1830_seg1.svg" alt="u1830_seg1"/>
+        <div id="u1830_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1831" class="ax_default _连接符">
+        <img id="u1831_seg0" class="img " src="images/admin_/u1831_seg0.svg" alt="u1831_seg0"/>
+        <img id="u1831_seg1" class="img " src="images/admin_/u1831_seg1.svg" alt="u1831_seg1"/>
+        <div id="u1831_text" class="text ">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1832" class="ax_default _连接符">
+        <img id="u1832_seg0" class="img " src="images/admin_/u1832_seg0.svg" alt="u1832_seg0"/>
+        <img id="u1832_seg1" class="img " src="images/admin_/u1832_seg1.svg" alt="u1832_seg1"/>
+        <img id="u1832_seg2" class="img " src="images/admin_/u1832_seg2.svg" alt="u1832_seg2"/>
+        <div id="u1832_text" class="text ">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1833" class="ax_default _连接符">
+        <img id="u1833_seg0" class="img " src="images/admin_/u1833_seg0.svg" alt="u1833_seg0"/>
+        <img id="u1833_seg1" class="img " src="images/admin_/u1833_seg1.svg" alt="u1833_seg1"/>
+        <div id="u1833_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1834" class="ax_default _连接符">
+        <img id="u1834_seg0" class="img " src="images/admin_/u1834_seg0.svg" alt="u1834_seg0"/>
+        <img id="u1834_seg1" class="img " src="images/admin_/u1834_seg1.svg" alt="u1834_seg1"/>
+        <div id="u1834_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1835" class="ax_default _连接符">
+        <img id="u1835_seg0" class="img " src="images/admin_/u1835_seg0.svg" alt="u1835_seg0"/>
+        <img id="u1835_seg1" class="img " src="images/admin_/u1835_seg1.svg" alt="u1835_seg1"/>
+        <div id="u1835_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1836" class="ax_default flow_shape1">
+        <img id="u1836_img" class="img " src="images/admin_/u1822.svg"/>
+        <div id="u1836_text" class="text ">
+          <p><span>当前流程对Account Center 缺少指定子公司 Owner步骤</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1837" class="ax_default flow_shape1">
+        <div id="u1837_div" class=""></div>
+        <div id="u1837_text" class="text ">
+          <p><span>创建子公司</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u1838" class="ax_default flow_shape1">
+        <img id="u1838_img" class="img " src="images/登录/u101.svg"/>
+        <div id="u1838_text" class="text ">
+          <p><span>有可用经销商</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1839" class="ax_default flow_shape1">
+        <div id="u1839_div" class=""></div>
+        <div id="u1839_text" class="text ">
+          <p><span>选择经销商</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1840" class="ax_default flow_shape1">
+        <div id="u1840_div" class=""></div>
+        <div id="u1840_text" class="text ">
+          <p><span>输入公司信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1841" class="ax_default flow_shape1">
+        <div id="u1841_div" class=""></div>
+        <div id="u1841_text" class="text ">
+          <p><span>创建成功</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1842" class="ax_default flow_shape1">
+        <div id="u1842_div" class=""></div>
+        <div id="u1842_text" class="text ">
+          <p><span>结束</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1843" class="ax_default _连接符">
+        <img id="u1843_seg0" class="img " src="images/admin_/u1843_seg0.svg" alt="u1843_seg0"/>
+        <img id="u1843_seg1" class="img " src="images/admin_/u1843_seg1.svg" alt="u1843_seg1"/>
+        <div id="u1843_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1844" class="ax_default _连接符">
+        <img id="u1844_seg0" class="img " src="images/admin_/u1844_seg0.svg" alt="u1844_seg0"/>
+        <img id="u1844_seg1" class="img " src="images/admin_/u1844_seg1.svg" alt="u1844_seg1"/>
+        <div id="u1844_text" class="text ">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1845" class="ax_default _连接符">
+        <img id="u1845_seg0" class="img " src="images/admin_/u1845_seg0.svg" alt="u1845_seg0"/>
+        <img id="u1845_seg1" class="img " src="images/admin_/u1845_seg1.svg" alt="u1845_seg1"/>
+        <img id="u1845_seg2" class="img " src="images/admin_/u1845_seg2.svg" alt="u1845_seg2"/>
+        <img id="u1845_seg3" class="img " src="images/admin_/u1845_seg3.svg" alt="u1845_seg3"/>
+        <div id="u1845_text" class="text ">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1846" class="ax_default _连接符">
+        <img id="u1846_seg0" class="img " src="images/admin_/u1846_seg0.svg" alt="u1846_seg0"/>
+        <img id="u1846_seg1" class="img " src="images/admin_/u1846_seg1.svg" alt="u1846_seg1"/>
+        <div id="u1846_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1847" class="ax_default _连接符">
+        <img id="u1847_seg0" class="img " src="images/admin_/u1847_seg0.svg" alt="u1847_seg0"/>
+        <img id="u1847_seg1" class="img " src="images/admin_/u1847_seg1.svg" alt="u1847_seg1"/>
+        <div id="u1847_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1848" class="ax_default _连接符">
+        <img id="u1848_seg0" class="img " src="images/admin_/u1848_seg0.svg" alt="u1848_seg0"/>
+        <img id="u1848_seg1" class="img " src="images/admin_/u1848_seg1.svg" alt="u1848_seg1"/>
+        <div id="u1848_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u1849" class="ax_default flow_shape1">
+        <img id="u1849_img" class="img " src="images/登录/u101.svg"/>
+        <div id="u1849_text" class="text ">
+          <p><span>有可用账号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1850" class="ax_default flow_shape1">
+        <div id="u1850_div" class=""></div>
+        <div id="u1850_text" class="text ">
+          <p><span>选择账号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1851" class="ax_default flow_shape1">
+        <div id="u1851_div" class=""></div>
+        <div id="u1851_text" class="text ">
+          <p><span>创建账号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1852" class="ax_default _连接符">
+        <img id="u1852_seg0" class="img " src="images/admin_/u1852_seg0.svg" alt="u1852_seg0"/>
+        <img id="u1852_seg1" class="img " src="images/admin_/u1852_seg1.svg" alt="u1852_seg1"/>
+        <img id="u1852_seg2" class="img " src="images/admin_/u1852_seg2.svg" alt="u1852_seg2"/>
+        <div id="u1852_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1853" class="ax_default _连接符">
+        <img id="u1853_seg0" class="img " src="images/admin_/u1853_seg0.svg" alt="u1853_seg0"/>
+        <img id="u1853_seg1" class="img " src="images/admin_/u1853_seg1.svg" alt="u1853_seg1"/>
+        <div id="u1853_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1854" class="ax_default _连接符">
+        <img id="u1854_seg0" class="img " src="images/admin_/u1854_seg0.svg" alt="u1854_seg0"/>
+        <img id="u1854_seg1" class="img " src="images/admin_/u1854_seg1.svg" alt="u1854_seg1"/>
+        <div id="u1854_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1855" class="ax_default _连接符">
+        <img id="u1855_seg0" class="img " src="images/admin_/u1855_seg0.svg" alt="u1855_seg0"/>
+        <img id="u1855_seg1" class="img " src="images/admin_/u1855_seg1.svg" alt="u1855_seg1"/>
+        <div id="u1855_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1856" class="ax_default flow_shape1">
+        <img id="u1856_img" class="img " src="images/admin_/u1822.svg"/>
+        <div id="u1856_text" class="text ">
+          <p><span>调整后</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1857" class="ax_default _连接符">
+        <img id="u1857_seg0" class="img " src="images/admin_/u1857_seg0.svg" alt="u1857_seg0"/>
+        <img id="u1857_seg1" class="img " src="images/admin_/u1857_seg1.svg" alt="u1857_seg1"/>
+        <div id="u1857_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1858" class="ax_default _文本">
+        <div id="u1858_div" class=""></div>
+        <div id="u1858_text" class="text ">
+          <p><span>公司在创建成功后，用户登录Console可以看到自己的公司信息，并开放Console相关的功能</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1859" class="ax_default flow_shape1">
+        <div id="u1859_div" class=""></div>
+        <div id="u1859_text" class="text ">
+          <p><span>更换公司Owner</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1860" class="ax_default flow_shape1">
+        <div id="u1860_div" class=""></div>
+        <div id="u1860_text" class="text ">
+          <p><span>选择公司</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u1861" class="ax_default flow_shape1">
+        <img id="u1861_img" class="img " src="images/登录/u101.svg"/>
+        <div id="u1861_text" class="text ">
+          <p><span>有可用账号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1862" class="ax_default flow_shape1">
+        <div id="u1862_div" class=""></div>
+        <div id="u1862_text" class="text ">
+          <p><span>选择账号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1863" class="ax_default flow_shape1">
+        <div id="u1863_div" class=""></div>
+        <div id="u1863_text" class="text ">
+          <p><span>创建账号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1864" class="ax_default flow_shape1">
+        <div id="u1864_div" class=""></div>
+        <div id="u1864_text" class="text ">
+          <p><span>结束</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1865" class="ax_default flow_shape1">
+        <div id="u1865_div" class=""></div>
+        <div id="u1865_text" class="text ">
+          <p><span>更换成功</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1866" class="ax_default _连接符">
+        <img id="u1866_seg0" class="img " src="images/admin_/u1866_seg0.svg" alt="u1866_seg0"/>
+        <img id="u1866_seg1" class="img " src="images/admin_/u1866_seg1.svg" alt="u1866_seg1"/>
+        <div id="u1866_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1867" class="ax_default _连接符">
+        <img id="u1867_seg0" class="img " src="images/admin_/u1867_seg0.svg" alt="u1867_seg0"/>
+        <img id="u1867_seg1" class="img " src="images/admin_/u1867_seg1.svg" alt="u1867_seg1"/>
+        <div id="u1867_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1868" class="ax_default _连接符">
+        <img id="u1868_seg0" class="img " src="images/admin_/u1868_seg0.svg" alt="u1868_seg0"/>
+        <img id="u1868_seg1" class="img " src="images/admin_/u1868_seg1.svg" alt="u1868_seg1"/>
+        <img id="u1868_seg2" class="img " src="images/admin_/u1868_seg2.svg" alt="u1868_seg2"/>
+        <div id="u1868_text" class="text ">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1869" class="ax_default _连接符">
+        <img id="u1869_seg0" class="img " src="images/admin_/u1869_seg0.svg" alt="u1869_seg0"/>
+        <img id="u1869_seg1" class="img " src="images/admin_/u1869_seg1.svg" alt="u1869_seg1"/>
+        <div id="u1869_text" class="text ">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1870" class="ax_default _连接符">
+        <img id="u1870_seg0" class="img " src="images/admin_/u1870_seg0.svg" alt="u1870_seg0"/>
+        <img id="u1870_seg1" class="img " src="images/admin_/u1870_seg1.svg" alt="u1870_seg1"/>
+        <div id="u1870_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1871" class="ax_default _连接符">
+        <img id="u1871_seg0" class="img " src="images/admin_/u1871_seg0.svg" alt="u1871_seg0"/>
+        <img id="u1871_seg1" class="img " src="images/admin_/u1871_seg1.svg" alt="u1871_seg1"/>
+        <div id="u1871_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1872" class="ax_default _连接符">
+        <img id="u1872_seg0" class="img " src="images/admin_/u1872_seg0.svg" alt="u1872_seg0"/>
+        <img id="u1872_seg1" class="img " src="images/admin_/u1872_seg1.svg" alt="u1872_seg1"/>
+        <div id="u1872_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1873" class="ax_default flow_shape1">
+        <img id="u1873_img" class="img " src="images/admin_/u1822.svg"/>
+        <div id="u1873_text" class="text ">
+          <p><span>更换该公司Owner时，需要在改公司用户中心下同步更换对应的Owner账号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1874" class="ax_default _标题_3">
+        <div id="u1874_div" class=""></div>
+        <div id="u1874_text" class="text ">
+          <p><span>用户管理 - 用户来源：1.Admin端创建用户；2.Company的用户中心邀请的新用户</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1875" class="ax_default flow_shape1">
+        <div id="u1875_div" class=""></div>
+        <div id="u1875_text" class="text ">
+          <p><span>创建用户</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1876" class="ax_default flow_shape1">
+        <div id="u1876_div" class=""></div>
+        <div id="u1876_text" class="text ">
+          <p><span>输入名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1877" class="ax_default flow_shape1">
+        <div id="u1877_div" class=""></div>
+        <div id="u1877_text" class="text ">
+          <p><span>输入邮箱</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1878" class="ax_default flow_shape1">
+        <div id="u1878_div" class=""></div>
+        <div id="u1878_text" class="text ">
+          <p><span>创建成功</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1879" class="ax_default flow_shape1">
+        <div id="u1879_div" class=""></div>
+        <div id="u1879_text" class="text ">
+          <p><span>结束</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1880" class="ax_default _连接符">
+        <img id="u1880_seg0" class="img " src="images/admin_/u1880_seg0.svg" alt="u1880_seg0"/>
+        <img id="u1880_seg1" class="img " src="images/admin_/u1880_seg1.svg" alt="u1880_seg1"/>
+        <div id="u1880_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1881" class="ax_default _连接符">
+        <img id="u1881_seg0" class="img " src="images/admin_/u1881_seg0.svg" alt="u1881_seg0"/>
+        <img id="u1881_seg1" class="img " src="images/admin_/u1881_seg1.svg" alt="u1881_seg1"/>
+        <div id="u1881_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1882" class="ax_default _连接符">
+        <img id="u1882_seg0" class="img " src="images/admin_/u1882_seg0.svg" alt="u1882_seg0"/>
+        <img id="u1882_seg1" class="img " src="images/admin_/u1882_seg1.svg" alt="u1882_seg1"/>
+        <div id="u1882_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Connector) -->
+      <div id="u1883" class="ax_default _连接符">
+        <img id="u1883_seg0" class="img " src="images/admin_/u1883_seg0.svg" alt="u1883_seg0"/>
+        <img id="u1883_seg1" class="img " src="images/admin_/u1883_seg1.svg" alt="u1883_seg1"/>
+        <div id="u1883_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1884" class="ax_default flow_shape1">
+        <img id="u1884_img" class="img " src="images/admin_/u1822.svg"/>
+        <div id="u1884_text" class="text ">
+          <p><span>创建账号时，Admin会向目标邮箱发送账号邮件</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Table) -->
+      <div id="u1885" class="ax_default">
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u1886" class="ax_default table_cell">
+          <img id="u1886_img" class="img " src="images/admin_/u1886.png"/>
+          <div id="u1886_text" class="text ">
+            <p><span>Full Name</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u1887" class="ax_default table_cell">
+          <img id="u1887_img" class="img " src="images/admin_/u1886.png"/>
+          <div id="u1887_text" class="text ">
+            <p><span>Email</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u1888" class="ax_default table_cell">
+          <img id="u1888_img" class="img " src="images/admin_/u1886.png"/>
+          <div id="u1888_text" class="text ">
+            <p><span>Company</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u1889" class="ax_default table_cell">
+          <img id="u1889_img" class="img " src="images/admin_/u1886.png"/>
+          <div id="u1889_text" class="text ">
+            <p><span>Created Time</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u1890" class="ax_default table_cell">
+          <img id="u1890_img" class="img " src="images/admin_/u1886.png"/>
+          <div id="u1890_text" class="text ">
+            <p><span>Phone</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u1891" class="ax_default table_cell">
+          <img id="u1891_img" class="img " src="images/admin_/u1886.png"/>
+          <div id="u1891_text" class="text ">
+            <p><span>Address</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1892" class="ax_default label">
+        <div id="u1892_div" class=""></div>
+        <div id="u1892_text" class="text ">
+          <p><span>用户管理列表下，当前Company字段为用户是哪个公司的Owner</span></p><p><span>根据Account Center业务，需要将该字段调整为用户是哪个公司的成员，即该用户加入了任一公司均需要在这个字段展示出来</span></p>
+        </div>
+      </div>
+    </div>
+    <script src="resources/scripts/axure/ios.js"></script>
+  </body>
+</html>

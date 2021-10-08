@@ -1,0 +1,35 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:relative;
+  left:-97px;
+  width:1200px;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+}
+.form_sketch {
+  border-color:transparent;
+  background-color:transparent;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u1704 {
+  border-width:0px;
+  position:absolute;
+  left:97px;
+  top:71px;
+  width:1196px;
+  height:746px;
+}
+#u1704_input {
+  border-width:2px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:1196px;
+  height:746px;
+  overflow:hidden;
+}
